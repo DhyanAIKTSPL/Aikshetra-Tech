@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Django stuff
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+
+# Migrations (optional: if you want only final migrations pushed, uncomment below)
+# */migrations/*.py
+# !*/migrations/__init__.py
